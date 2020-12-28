@@ -1,9 +1,6 @@
-#kind  version
-#pod  vi
-#service v1
-#ReplicSet apps/v1
-#Deployment apps/v1
+#apiVersion  version ( pod  v1, service v1, ReplicSet apps/v1, Deployment apps/v1
 apiVersion: v1
+#kind (Pod, Service, ReplicaSet, Deployment, Service)
 kind: Pod
 metadata:
  name: be-pod
